@@ -7,7 +7,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { OurWorkComponent } from './pages/our-work/our-work.component';
 import { AboutComponent } from './pages/about/about.component';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './components/header/header.component';
 
 
 
