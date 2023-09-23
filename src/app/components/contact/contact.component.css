@@ -1,0 +1,27 @@
+section{
+    width: 70%;
+    margin: 0 auto;
+}
+.corner{
+    border: solid black;
+    height: 20%;
+    border-width: 3px 0 0 3px ;
+    display: inline-block;
+    padding: 3px;
+}
+.contact{
+    color: orangered;
+    word-spacing: 50px;
+    font-weight: bold;
+}
+#contactH1{
+    font-size: 80px;
+    font-weight: bold;
+}
+#nameTxt, #emailTxt, #messageTxt{
+ border-top: 0px;
+ border-left: 0px;
+ border-right: 0px;
+ border-bottom: blue solid 1px;
+ border-radius: 0;
+}
