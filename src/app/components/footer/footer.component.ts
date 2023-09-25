@@ -4,6 +4,7 @@ import {
   faFacebook,
   faInstagram
 } from '@fortawesome/free-brands-svg-icons';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
@@ -12,6 +13,6 @@ import {
 export class FooterComponent {
   faInstagram = faInstagram;
   faFacebook = faFacebook;
-  
+
 
 }
