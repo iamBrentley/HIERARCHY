@@ -8,7 +8,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { OurWorkComponent } from './pages/our-work/our-work.component';
 import { AboutComponent } from './pages/about/about.component';
 import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -18,11 +20,13 @@ import { HeaderComponent } from './components/header/header.component';
     HomeComponent,
     OurWorkComponent,
     AboutComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

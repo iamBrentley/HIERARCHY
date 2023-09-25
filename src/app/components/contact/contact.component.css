@@ -2,6 +2,7 @@ section{
     width: 70%;
     margin: 0 auto;
     color: darkblue;
+    font-family: "Avenir Black", Helvetica, sans-serif;
 }
 .corner{
     border: solid darkblue;
