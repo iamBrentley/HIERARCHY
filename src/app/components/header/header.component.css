@@ -12,16 +12,23 @@ nav ul li a{
     padding: 5px 10px;
 }
 header{
+    display: inline;
     
-    position: relative;
+
 }
 .navbar{
-    width: 800px;
+    width: 70%;
     margin: auto;
     
 }
 .nav-area{
     float: right;
     list-style-type: none;
-    
+}
+
+.logo{
+    position: relative;
+}
+.logo img{
+    width: 120px;
 }

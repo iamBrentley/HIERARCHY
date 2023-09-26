@@ -1,0 +1,23 @@
+section{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.top{
+    background-color: blueviolet;
+    display: flex;
+    width: 100%;
+}
+.welcomeText{
+    background-color: rgb(49, 226, 43);
+    width: 50%;
+    color: darkblue;
+    
+}
+.welcomeText h1{
+    font-size: 7em;
+}
+.animation{
+    background-color: rgb(43, 70, 226);
+    width: 50%;
+}
