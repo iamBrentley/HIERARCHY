@@ -1,5 +1,5 @@
  nav ul{
-    float: right;
+    /* float: right; */
     
 } 
 nav ul li{
@@ -11,7 +11,7 @@ nav ul li a{
     text-decoration: none;
     color: black;
     padding: 5px 10px;
-    float: right;
+    /* float: right; */
 }
 header{
     display: inline;
@@ -26,9 +26,10 @@ header{
 }
 .nav-area{
     list-style-type: none;
+    
 }
 .nav-area li{
-    float: right;
+    /* float: right; */
 }
 
 .logo{

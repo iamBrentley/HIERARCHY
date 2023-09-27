@@ -1,25 +1,84 @@
+.container{
+    height: 100vh;
+    overflow-y: scroll;
+}
 .welcome{
     width: 1024px;
     margin: 0 auto;
     padding-top: 50px;
-    
 }
 .top{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     width: 100%;
 }
 .welcomeText{
-    background-color: rgb(49, 226, 43);
+    /* background-color: rgb(49, 226, 43); */
     width: 50%;
     color: darkblue;
-    
+    margin: 30px;
     
 }
 .welcomeText h1{
     font-size: 7em;
+    
 }
 .animation{
-    background-color: rgb(43, 70, 226);
+    /* background-color: rgb(43, 70, 226); */
     width: 50%;
+}
+
+/* ------------------------------------OUR WORK SECTION------------------------------------------------------ */
+
+.stay{
+    width: 1024px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.heading{
+    padding: 20px 0px 20px;
+}
+.heading h2{
+    color: #EE5035;
+    font-size: 45px;
+    letter-spacing: 8px;
+}
+.work{
+    padding: 50px;
+    border-bottom: 2px solid #EE5035 ;
+    color: darkblue;
+    transition: 0.5s ease-in-out;
+}
+.work:hover{
+    transform: scale(1.1);
+    color: #EE5035;
+}
+
+/* ------------------------------------OUR CLIENTS------------------------------------------------------ */
+
+.bye{
+    width: 1024px;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.bye-heading{
+    padding: 20px 0px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+}
+.bye-heading h2{
+    color: #EE5035;
+    font-size: 45px;
+    letter-spacing: 8px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.bottom img{
+    width: 200px;
+    height: 200px;
 }
