@@ -1,18 +1,21 @@
-/* nav ul{
+ nav ul{
     float: right;
-    list-style-type: none;
-} */
+    
+} 
 nav ul li{
     display: inline-block;
     padding: 15px;
+    
 }
 nav ul li a{
     text-decoration: none;
     color: black;
     padding: 5px 10px;
+    float: right;
 }
 header{
     display: inline;
+    width: 100%;
     
 
 }
@@ -22,13 +25,27 @@ header{
     
 }
 .nav-area{
-    float: right;
     list-style-type: none;
+}
+.nav-area li{
+    float: right;
 }
 
 .logo{
-    position: relative;
+    position: absolute;
+    width: 250px;
+    align-items: center;
+    padding: 30px 60px 30px;
+    
 }
 .logo img{
     width: 120px;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 250px;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
