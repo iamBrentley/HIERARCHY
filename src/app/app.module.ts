@@ -11,6 +11,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { OurStoryComponent } from './aboutUs/our-story/our-story.component';
+import { OurTeamComponent } from './components/aboutUs/our-team/our-team.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     OurWorkComponent,
     AboutComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    OurStoryComponent,
+    OurTeamComponent
   ],
   imports: [
     BrowserModule,
