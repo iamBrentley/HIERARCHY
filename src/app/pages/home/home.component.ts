@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDownZA } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-
+  faArrowDown = faArrowDown;
+  faArrowZa = faArrowDownZA;
 }

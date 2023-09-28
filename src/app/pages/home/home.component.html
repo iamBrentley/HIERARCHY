@@ -4,7 +4,7 @@
 <div class="welcome">
     <div class="top">
         <div class="welcomeText">
-            <h1>All your Graphic Design needs</h1>
+            <h1 class="lh-1">All<br>your<br>Graphic<br>Design<br>needs</h1>
 
         </div>
         <div class="animation">
@@ -17,11 +17,18 @@
 <!--------------------------------------OUR WORK SECTION-------------------------------------------------------->
 <div class="stay">
     <div class="middle">
-        <div class="heading">
-            <i class="fa-solid fa-arrow-down-right fa-sm" style="color: #001ba3;"></i><h2>Some of our work</h2>
+        <div class="heading d-flex">
+            <fa-icon [icon]="faArrowDown" style="color: #001ba3;transform:rotateX('45');" class="fs-1"></fa-icon><h2>Some of our work</h2>
         </div>
-        <div class="work">
-            <h3>LOGOS</h3>
+        <div class="work d-flex position-relative">
+            <div>
+                <h3>LOGOS</h3>
+            </div>
+            <div class="images position-absolute end-0 d-flex">
+                <img src="assets/image/ourWork/BLACK LOGO.png" alt="logo1" style="width: 10%;"> 
+                <img src="assets/image/ourWork/Mockup.png" alt="logo2" style="width: 10%;">
+                <img src="assets/image/ourWork/69SUPREME art.jpg" alt="logo3" style="width: 10%;">
+            </div>
         </div>
         <div class="work">
             <h3>POSTERS</h3>
