@@ -48,30 +48,41 @@
     padding: 50px;
     border-bottom: 2px solid #EE5035 ;
     color: darkblue;
-    transition: 0.5s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 .work:hover{
     transform: scale(1.1);
     color: #EE5035;
+    
+
 }
-.one{
-    background-color: #EE5035;
-    width: 50px;
-    height: 50px;
-    z-index: -1;
+.images{
+    margin: 0 auto;
+    
 }
-.two{
-    background-color: blue;
-    width: 60px;
-    height: 50px;
-    z-index: 1;
+.work .images:hover{
+    opacity: 1;
+    transition: 0.4s ease-in-out;
 }
-.three{
-    background-color: pink;
-    width: 50px;
-    height: 50px;
-    z-index: -1;
+
+.work .images{
+    opacity: 0;
+    transition: 0.4s ease-out;
 }
+.hov1{
+    /* z-index: -1; */
+    width: 100px;
+}
+.hov2{
+    /* z-index: 1; */
+    width: 150px;
+}
+.hov3{
+    /* z-index: -1; */
+    width: 100px;
+}
+
+
 
 
 /* ------------------------------------OUR CLIENTS------------------------------------------------------ */
