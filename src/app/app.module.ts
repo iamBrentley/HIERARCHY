@@ -12,6 +12,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { OurStoryComponent } from './components/aboutUs/our-story/our-story.component';
 import { OurTeamComponent } from './components/aboutUs/our-team/our-team.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ArtworkComponent } from './components/ourWork/artwork/artwork.component';
+import { ArtoverlayComponent } from './components/ourWork/artoverlay/artoverlay.component';
 
 
 
@@ -25,7 +27,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HeaderComponent,
     FooterComponent,
     OurStoryComponent,
-    OurTeamComponent
+    OurTeamComponent,
+    ArtworkComponent,
+    ArtoverlayComponent
   ],
   imports: [
     BrowserModule,

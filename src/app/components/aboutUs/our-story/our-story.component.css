@@ -1,4 +1,12 @@
 section{
     width: 70%;
     margin: 0 auto;
+    
+}
+.OurStory h1{
+    color: orangered;
+    font-size: 24px;
+}
+.OurStory p{
+    color: #32302C;
 }
