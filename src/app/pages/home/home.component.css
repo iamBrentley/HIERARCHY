@@ -114,9 +114,9 @@
     display: flex;
     justify-content: center;
 }
- .bottom img {
+ /* .bottom img {
     
-} 
+}  */
 .client{
     justify-content: center;
     align-items: center;
