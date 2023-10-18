@@ -1,7 +1,7 @@
- nav ul{
+ /* /* nav ul{
     /* float: right; */
     
-} 
+/* } 
 nav ul li{
     display: inline-block;
     padding: 15px;
@@ -11,7 +11,7 @@ nav ul li a{
     text-decoration: none;
     color: black;
     padding: 5px 10px;
-    /* float: right; */
+    float: right;
 }
 header{
     display: inline;
@@ -27,10 +27,10 @@ header{
 .nav-area{
     list-style-type: none;
     
-}
+} 
 .nav-area li{
-    /* float: right; */
-}
+     float: right; 
+}  
 
 .logo{
     position: absolute;
@@ -49,4 +49,44 @@ header{
   }
   .sticky + .content {
     padding-top: 60px;
+  }  */
+
+  li{
+    list-style: none;
+    
+  }
+  a{
+    text-decoration: none;
+    color: #EE5035;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: 0.5s;
+  }
+  a:hover{
+    color: #2B3D81;
+    
+
+  }
+  header{
+    position: relative;
+    padding: 0 2rem;
+  } 
+  .navbar{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    
+    margin: 0 auto;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  .navbar .logo img{
+    width: 150px;
+    position: fixed;
+  }
+  .navbar .links{
+    display: flex;
+    gap: 2.5rem;
+    
   }

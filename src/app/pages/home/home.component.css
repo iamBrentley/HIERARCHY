@@ -6,7 +6,8 @@
 .welcome{
     /* width: 1024px; */
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 0px;
+    align-items: center;
 }
 .top{
     /* background-color: blueviolet; */
@@ -16,13 +17,16 @@
 .welcomeText{
     /* background-color: rgb(49, 226, 43); */
     width: 50%;
-    color: darkblue;
+    color: #2B3D81;
     margin: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     
 }
 .welcomeText h1{
-    font-size: 7em;
-    
+    font-size: 6.5rem;
+    font-weight: 700;
 }
 .animation{
     /* background-color: rgb(43, 70, 226); */
@@ -41,13 +45,17 @@
 }
 .heading h2{
     color: #EE5035;
-    font-size: 45px;
+    font-size: 33px;
     letter-spacing: 8px;
 }
+.work h3{
+    font-size: 20px;
+    font-weight: 600;
+}
 .work{
-    padding: 50px;
+    padding: 30px;
     border-bottom: 2px solid #EE5035 ;
-    color: darkblue;
+    color: #2B3D81;
     transition: 0.4s ease-in-out;
     align-items: center;
 }
@@ -106,8 +114,12 @@
     display: flex;
     justify-content: center;
 }
-.bottom img{
-    width: 200px;
-    height: 200px;
+ .bottom img {
+    
+} 
+.client{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 50px;
 }
-

@@ -1,11 +1,11 @@
 section{
     width: 1024px;
     margin: 0 auto;
-    color: darkblue;
+    color: #2B3D81;
     font-family: "Avenir Black", Helvetica, sans-serif;
 }
 .corner{
-    border: solid darkblue;
+    border: solid #2B3D81;
     height: 20%;
     border-width: 3px 0 0 3px ;
     display: inline-block;
@@ -25,13 +25,13 @@ section{
  border-top: 0px;
  border-left: 0px;
  border-right: 0px;
- border-bottom: darkblue solid 1px;
+ border-bottom: #2B3D81 solid 1px;
  border-radius: 0;
 }
 .contactForm button{
     border: none;
     background-color: white;
-    color: darkblue;
+    color: #2B3D81;
     margin: 0 auto;
     font-weight: bold;
     font-size: 18px;
