@@ -1,0 +1,17 @@
+section{
+    width: 80%;
+    margin: 3rem auto;
+}
+.Collage{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+.Collage img{
+    width: 100%;
+    padding: 0;
+}
+.Collage:nth-of-type(5){
+    grid-row: 2;
+}
